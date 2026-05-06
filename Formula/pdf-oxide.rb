@@ -7,16 +7,16 @@ class PdfOxide < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/yfedoseev/pdf_oxide/releases/download/v0.3.44/pdf_oxide-macos-aarch64-0.3.44.tar.gz"
-      sha256 "c6fa5155ed48a1bc88cec7fc30a20e76442fb227cb9d8b038a6cb6dd55183d28"
+      sha256 "15fe72baa6a33bffe4c88daf866cdde3066650c65f2faa906b3ef8b801e5a323"
     else
       url "https://github.com/yfedoseev/pdf_oxide/releases/download/v0.3.44/pdf_oxide-macos-x86_64-0.3.44.tar.gz"
-      sha256 "954c6fc898723ec0298e2a568c54188fef781498f33d1ef7128b7ef4f0c07b0e"
+      sha256 "1b4407479861de1444bf7a578d2d1e8425244a7a7752f4a62ecf24ec591680ae"
     end
   end
 
   on_linux do
     url "https://github.com/yfedoseev/pdf_oxide/releases/download/v0.3.44/pdf_oxide-linux-x86_64-musl-0.3.44.tar.gz"
-    sha256 "7e5294513b64dbdebaa7a54b9cec5fc9ba3c1433c58b9423296f85fc2c3c3466"
+    sha256 "f48b7ed4a23ff43079cea9443a58a9431bea4342f1d632573922a040b2f5b3b3"
   end
 
   def install
