@@ -1,22 +1,22 @@
 class PdfOxide < Formula
   desc "The fastest PDF toolkit — extract text, images, metadata, and more"
   homepage "https://github.com/yfedoseev/pdf_oxide"
-  version "0.3.68"
+  version "0.3.69"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/yfedoseev/pdf_oxide/releases/download/v0.3.68/pdf_oxide-macos-aarch64-0.3.68.tar.gz"
-      sha256 "37be9c10a338af7cd91c98c4e46bcbfadd9559e6d94aae60b4b825ce3fb673a3"
+      url "https://github.com/yfedoseev/pdf_oxide/releases/download/v0.3.69/pdf_oxide-macos-aarch64-0.3.69.tar.gz"
+      sha256 "6df536b1a7c98f1355a4d83a7efd1c3341436811258e5eddfebf40d67764a6e6"
     else
-      url "https://github.com/yfedoseev/pdf_oxide/releases/download/v0.3.68/pdf_oxide-macos-x86_64-0.3.68.tar.gz"
-      sha256 "a98d82a63a9b518c7c70e6c06b81360681677156d4533513bc8d635c52cd6f40"
+      url "https://github.com/yfedoseev/pdf_oxide/releases/download/v0.3.69/pdf_oxide-macos-x86_64-0.3.69.tar.gz"
+      sha256 "f6ab25f022bd05a01992470fa3aa84341cfb1233a9222fc032a01c35fa08db2b"
     end
   end
 
   on_linux do
-    url "https://github.com/yfedoseev/pdf_oxide/releases/download/v0.3.68/pdf_oxide-linux-x86_64-musl-0.3.68.tar.gz"
-    sha256 "9e67fffc1abe2c2bb7e6763c64f08631e9f066508b8408a44ac2d7040a6c0f91"
+    url "https://github.com/yfedoseev/pdf_oxide/releases/download/v0.3.69/pdf_oxide-linux-x86_64-musl-0.3.69.tar.gz"
+    sha256 "d1fdba9b809a092c07c015e0f10f999018b596b4ad3260b4931a781a8756284d"
   end
 
   def install
