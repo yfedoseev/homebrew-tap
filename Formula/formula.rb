@@ -1,22 +1,22 @@
 class OfficeOxide < Formula
   desc "The fastest Office document toolkit — extract text from DOCX, XLSX, PPTX, DOC, XLS, PPT"
   homepage "https://github.com/yfedoseev/office_oxide"
-  version "0.1.8"
+  version "0.1.9"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/yfedoseev/office_oxide/releases/download/v0.1.8/office_oxide-macos-aarch64-0.1.8.tar.gz"
-      sha256 "0647abae71772ce5e6c41854904c262a25c108872c4941dafd38be3fe59200db"
+      url "https://github.com/yfedoseev/office_oxide/releases/download/v0.1.9/office_oxide-macos-aarch64-0.1.9.tar.gz"
+      sha256 "bdaa2b4efd60271b4283233978bf0a1bab0845b1c70f209c10e347110a5cc4d1"
     else
-      url "https://github.com/yfedoseev/office_oxide/releases/download/v0.1.8/office_oxide-macos-x86_64-0.1.8.tar.gz"
-      sha256 "3d7c7d2d486f8babdb6c51847f4a3723aab9df385b3e54fdc172088b6a90b933"
+      url "https://github.com/yfedoseev/office_oxide/releases/download/v0.1.9/office_oxide-macos-x86_64-0.1.9.tar.gz"
+      sha256 "dd2050182f0b62971bea75d7f8ca518be410fbb35f66303c58ff7236cafb7813"
     end
   end
 
   on_linux do
-    url "https://github.com/yfedoseev/office_oxide/releases/download/v0.1.8/office_oxide-linux-x86_64-musl-0.1.8.tar.gz"
-    sha256 "824cd355bde655a3167c33e6fc55a47a34ded9a694fd39f9b1e1cf38ef02bc61"
+    url "https://github.com/yfedoseev/office_oxide/releases/download/v0.1.9/office_oxide-linux-x86_64-musl-0.1.9.tar.gz"
+    sha256 "f3b4d5eb4052b2e9f8bc1779cc58be65c54d5e4975a54f4e9a1dc6b658fd0958"
   end
 
   def install
